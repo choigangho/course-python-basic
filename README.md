@@ -21,6 +21,47 @@ Python을 활용하여 구조적 프로그래밍의 핵심 원리를 익히고, 
 | ch05 | 자료구조 (Data Structures) |
 | ch06 | 함수 (Functions) |
 
+### ch01 - 주석 (Comments)
+
+**예제**
+| 파일 | 내용 |
+|------|------|
+| ex01_single_line.py | 한 줄 주석 |
+| ex02_inline.py | 인라인 주석 |
+| ex03_multi_line.py | 여러 줄 주석 |
+| ex04_docstring.py | 독스트링 |
+
+**실습**
+| 파일 | 내용 |
+|------|------|
+| p01.py | 파일 헤더 주석 작성 |
+| p02.py | TODO / FIXME 주석 작성 |
+| p03.py | 코드 주석 처리 (Comment Out) |
+
+### ch02 - 변수 (Variables)
+
+**예제**
+| 파일 | 내용 |
+|------|------|
+| ex01_declaration.py | 변수 선언과 값 할당 |
+| ex02_data_types.py | 기본 자료형 (str, int, float, bool) |
+| ex03_type_and_operations.py | 자료형과 연산 |
+| ex04_type_conversion.py | 자료형 변환 |
+| ex05_naming_rules.py | 변수 이름 규칙과 권장 사항 |
+| ex06_reassignment.py | 변수 값 변경 (재할당) |
+| ex07_multiple_assignment.py | 동시 할당, 값 교환 |
+| ex08_input.py | 사용자 입력 (input) |
+
+**실습**
+| 파일 | 내용 |
+|------|------|
+| p01.py | 자기소개 변수 만들기 |
+| p02.py | 변수의 자료형 확인하기 |
+| p03.py | 변수 값 교환하기 |
+| p04.py | 사용자 입력으로 자기소개 프로그램 |
+| p05.py | 자료형에 따른 연산 차이 확인 |
+| p06.py | 자료형 변환 활용하기 |
+
 ## 디렉토리 구조
 
 ```
