@@ -12,6 +12,12 @@ score = int(input("시험 점수: "))
 
 # 아래에 합격 여부를 판정하여 출력하세요
 
+if score >= 60 and score <=100:
+    print("합격입니다.")
+elif score > 100:
+    print("다시 입력해 주세요.")
+else:
+    print("불합격입니다.")
 
 """
 [실행 결과 예시] (입력: 75)

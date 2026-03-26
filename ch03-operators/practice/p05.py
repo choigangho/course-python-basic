@@ -14,6 +14,13 @@ weight = int(input("몸무게(kg)를 입력하세요: "))
 
 # 아래에 BMI를 계산하여 출력하세요
 
+# cm를 m으로 변환한다
+height_M = height / 100
+# bmi 공식을 사용한다
+# 몸무게(kg) / {키(m) ** 2}
+bmi = weight / (height_M ** 2)
+# 출력한다
+print(bmi)
 
 """
 [실행 결과 예시] (입력: 175, 70)

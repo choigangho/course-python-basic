@@ -13,6 +13,10 @@ c = 3.14
 d = False
 
 # 아래에 코드를 작성하세요
+print(a,type(a))
+print(b,type(b))
+print(c,type(c))
+print(d,type(d))
 
 
 """

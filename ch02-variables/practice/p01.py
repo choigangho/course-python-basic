@@ -11,6 +11,10 @@
 """
 
 # 아래에 코드를 작성하세요
+name, age, major = "최강호", 24, "글로벌시스템융합과"
+print(name)
+print(age)
+print(major)
 
 
 """

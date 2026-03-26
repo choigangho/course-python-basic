@@ -10,6 +10,10 @@ message = input("메시지: ")
 
 # 아래에 코드를 작성하세요
 
+print("*" * 20)
+print(f"* {name}님의 한마디 *")
+print(f"* {message} *")
+print("*" * 20)
 
 """
 [실행 결과 예시] (입력: 홍길동, 파이썬 화이팅)

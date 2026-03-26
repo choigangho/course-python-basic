@@ -14,7 +14,27 @@
 distance = int(input("이동 거리(m)를 입력하세요: "))
 
 # 아래에 택시 요금을 계산하여 출력하세요
+# 1600m 이하와 초과 상관없이 출력해야 할 이동거리 값은 동일하기에 if, else 안에 두지 않는다.
+print(f"이동 거리: {distance}m")
 
+# 입력값이 1600m 이하일 때
+if distance <= 1600:
+    
+    print("택시 요금: 4800원")
+
+# 1600m 초과일 때
+else :
+    # 이동 거리에서 1600m을 빼서 초과 거리를 구한다
+    over_distance = distance - 1600
+    # 초과 거리를 131m 나눈 몫을 구한다
+    count_131 = over_distance // 131
+    # 몫 * 100원을 하여 추가요금을 구한다
+    over_charge = count_131 * 100
+    # 기본 요금과 추가 요금을 더하여 택시요금을 출력한다.
+    charge = 4800 + over_charge 
+    
+    print(f"택시 요금: {charge}원")
+    
 
 """
 [실행 결과 예시] (입력: 3500)

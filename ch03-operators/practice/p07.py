@@ -24,6 +24,22 @@ discount3 = 0.15
 
 # 아래에 각 상품의 할인 가격을 계산하고 총액을 구하세요
 
+# 할인 가격 = 원래 가격 * (1 - 할인율)
+price1_sale = price1 * (1 - discount1)
+# 상품 1의 할인 가격을 출력한다
+print(f"노트북:{int(price1_sale)}원")
+
+# 할인 가격 = 원래 가격 * (1 - 할인율)
+price2_sale = price2 * (1 - discount2)
+# 상품 2의 할인 가격을 출력한다
+print(f"노트북:{int(price2_sale)}원")
+
+# 할인 가격 = 원래 가격 * (1 - 할인율)
+price3_sale = price3 * (1 - discount3)
+# 상품 3의 할인 가격을 출력한다
+print(f"노트북:{int(price3_sale)}원")
+
+
 
 """
 [실행 결과 예시]
